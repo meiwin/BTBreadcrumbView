@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D68E3D716A11987000F24C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D68E3D616A11987000F24C6 /* UIKit.framework */; };
+		3D68E3D916A11987000F24C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D68E3D816A11987000F24C6 /* Foundation.framework */; };
+		3D68E3DB16A11987000F24C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D68E3DA16A11987000F24C6 /* CoreGraphics.framework */; };
+		3D68E3E116A11987000F24C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D68E3DF16A11987000F24C6 /* InfoPlist.strings */; };
+		3D68E3E316A11987000F24C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68E3E216A11987000F24C6 /* main.m */; };
+		3D68E3E716A11987000F24C6 /* BTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68E3E616A11987000F24C6 /* BTAppDelegate.m */; };
+		3D68E3E916A11987000F24C6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D68E3E816A11987000F24C6 /* Default.png */; };
+		3D68E3EB16A11987000F24C6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D68E3EA16A11987000F24C6 /* Default@2x.png */; };
+		3D68E3ED16A11987000F24C6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D68E3EC16A11987000F24C6 /* Default-568h@2x.png */; };
+		3D68E3F016A11987000F24C6 /* BTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68E3EF16A11987000F24C6 /* BTViewController.m */; };
+		3D68E3F316A11987000F24C6 /* BTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D68E3F116A11987000F24C6 /* BTViewController.xib */; };
+		3D68E3FB16A11988000F24C6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D68E3FA16A11988000F24C6 /* SenTestingKit.framework */; };
+		3D68E3FC16A11988000F24C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D68E3D616A11987000F24C6 /* UIKit.framework */; };
+		3D68E3FD16A11988000F24C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D68E3D816A11987000F24C6 /* Foundation.framework */; };
+		3D68E40516A11988000F24C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D68E40316A11988000F24C6 /* InfoPlist.strings */; };
+		3D68E40816A11988000F24C6 /* BTFloatingMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68E40716A11988000F24C6 /* BTFloatingMenuTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D68E3FE16A11988000F24C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D68E3C916A11987000F24C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D68E3D116A11987000F24C6;
+			remoteInfo = BTFloatingMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D68E3D216A11987000F24C6 /* BTFloatingMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTFloatingMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D68E3D616A11987000F24C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D68E3D816A11987000F24C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D68E3DA16A11987000F24C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D68E3DE16A11987000F24C6 /* BTFloatingMenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTFloatingMenu-Info.plist"; sourceTree = "<group>"; };
+		3D68E3E016A11987000F24C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D68E3E216A11987000F24C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D68E3E416A11987000F24C6 /* BTFloatingMenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTFloatingMenu-Prefix.pch"; sourceTree = "<group>"; };
+		3D68E3E516A11987000F24C6 /* BTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAppDelegate.h; sourceTree = "<group>"; };
+		3D68E3E616A11987000F24C6 /* BTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAppDelegate.m; sourceTree = "<group>"; };
+		3D68E3E816A11987000F24C6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3D68E3EA16A11987000F24C6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3D68E3EC16A11987000F24C6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3D68E3EE16A11987000F24C6 /* BTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTViewController.h; sourceTree = "<group>"; };
+		3D68E3EF16A11987000F24C6 /* BTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTViewController.m; sourceTree = "<group>"; };
+		3D68E3F216A11987000F24C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BTViewController.xib; sourceTree = "<group>"; };
+		3D68E3F916A11988000F24C6 /* BTFloatingMenuTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTFloatingMenuTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D68E3FA16A11988000F24C6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3D68E40216A11988000F24C6 /* BTFloatingMenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTFloatingMenuTests-Info.plist"; sourceTree = "<group>"; };
+		3D68E40416A11988000F24C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D68E40616A11988000F24C6 /* BTFloatingMenuTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTFloatingMenuTests.h; sourceTree = "<group>"; };
+		3D68E40716A11988000F24C6 /* BTFloatingMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTFloatingMenuTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D68E3CF16A11987000F24C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D68E3D716A11987000F24C6 /* UIKit.framework in Frameworks */,
+				3D68E3D916A11987000F24C6 /* Foundation.framework in Frameworks */,
+				3D68E3DB16A11987000F24C6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D68E3F516A11987000F24C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D68E3FB16A11988000F24C6 /* SenTestingKit.framework in Frameworks */,
+				3D68E3FC16A11988000F24C6 /* UIKit.framework in Frameworks */,
+				3D68E3FD16A11988000F24C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D68E3C716A11987000F24C6 = {
+			isa = PBXGroup;
+			children = (
+				3D68E3DC16A11987000F24C6 /* BTFloatingMenu */,
+				3D68E40016A11988000F24C6 /* BTFloatingMenuTests */,
+				3D68E3D516A11987000F24C6 /* Frameworks */,
+				3D68E3D316A11987000F24C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D68E3D316A11987000F24C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D68E3D216A11987000F24C6 /* BTFloatingMenu.app */,
+				3D68E3F916A11988000F24C6 /* BTFloatingMenuTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D68E3D516A11987000F24C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D68E3D616A11987000F24C6 /* UIKit.framework */,
+				3D68E3D816A11987000F24C6 /* Foundation.framework */,
+				3D68E3DA16A11987000F24C6 /* CoreGraphics.framework */,
+				3D68E3FA16A11988000F24C6 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D68E3DC16A11987000F24C6 /* BTFloatingMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3D68E3E516A11987000F24C6 /* BTAppDelegate.h */,
+				3D68E3E616A11987000F24C6 /* BTAppDelegate.m */,
+				3D68E3EE16A11987000F24C6 /* BTViewController.h */,
+				3D68E3EF16A11987000F24C6 /* BTViewController.m */,
+				3D68E3F116A11987000F24C6 /* BTViewController.xib */,
+				3D68E3DD16A11987000F24C6 /* Supporting Files */,
+			);
+			path = BTFloatingMenu;
+			sourceTree = "<group>";
+		};
+		3D68E3DD16A11987000F24C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D68E3DE16A11987000F24C6 /* BTFloatingMenu-Info.plist */,
+				3D68E3DF16A11987000F24C6 /* InfoPlist.strings */,
+				3D68E3E216A11987000F24C6 /* main.m */,
+				3D68E3E416A11987000F24C6 /* BTFloatingMenu-Prefix.pch */,
+				3D68E3E816A11987000F24C6 /* Default.png */,
+				3D68E3EA16A11987000F24C6 /* Default@2x.png */,
+				3D68E3EC16A11987000F24C6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D68E40016A11988000F24C6 /* BTFloatingMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D68E40616A11988000F24C6 /* BTFloatingMenuTests.h */,
+				3D68E40716A11988000F24C6 /* BTFloatingMenuTests.m */,
+				3D68E40116A11988000F24C6 /* Supporting Files */,
+			);
+			path = BTFloatingMenuTests;
+			sourceTree = "<group>";
+		};
+		3D68E40116A11988000F24C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D68E40216A11988000F24C6 /* BTFloatingMenuTests-Info.plist */,
+				3D68E40316A11988000F24C6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D68E3D116A11987000F24C6 /* BTFloatingMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D68E40B16A11988000F24C6 /* Build configuration list for PBXNativeTarget "BTFloatingMenu" */;
+			buildPhases = (
+				3D68E3CE16A11987000F24C6 /* Sources */,
+				3D68E3CF16A11987000F24C6 /* Frameworks */,
+				3D68E3D016A11987000F24C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTFloatingMenu;
+			productName = BTFloatingMenu;
+			productReference = 3D68E3D216A11987000F24C6 /* BTFloatingMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D68E3F816A11987000F24C6 /* BTFloatingMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D68E40E16A11988000F24C6 /* Build configuration list for PBXNativeTarget "BTFloatingMenuTests" */;
+			buildPhases = (
+				3D68E3F416A11987000F24C6 /* Sources */,
+				3D68E3F516A11987000F24C6 /* Frameworks */,
+				3D68E3F616A11987000F24C6 /* Resources */,
+				3D68E3F716A11987000F24C6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D68E3FF16A11988000F24C6 /* PBXTargetDependency */,
+			);
+			name = BTFloatingMenuTests;
+			productName = BTFloatingMenuTests;
+			productReference = 3D68E3F916A11988000F24C6 /* BTFloatingMenuTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D68E3C916A11987000F24C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = BlockThirty;
+			};
+			buildConfigurationList = 3D68E3CC16A11987000F24C6 /* Build configuration list for PBXProject "BTFloatingMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3D68E3C716A11987000F24C6;
+			productRefGroup = 3D68E3D316A11987000F24C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D68E3D116A11987000F24C6 /* BTFloatingMenu */,
+				3D68E3F816A11987000F24C6 /* BTFloatingMenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D68E3D016A11987000F24C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D68E3E116A11987000F24C6 /* InfoPlist.strings in Resources */,
+				3D68E3E916A11987000F24C6 /* Default.png in Resources */,
+				3D68E3EB16A11987000F24C6 /* Default@2x.png in Resources */,
+				3D68E3ED16A11987000F24C6 /* Default-568h@2x.png in Resources */,
+				3D68E3F316A11987000F24C6 /* BTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D68E3F616A11987000F24C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D68E40516A11988000F24C6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D68E3F716A11987000F24C6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D68E3CE16A11987000F24C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D68E3E316A11987000F24C6 /* main.m in Sources */,
+				3D68E3E716A11987000F24C6 /* BTAppDelegate.m in Sources */,
+				3D68E3F016A11987000F24C6 /* BTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D68E3F416A11987000F24C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D68E40816A11988000F24C6 /* BTFloatingMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D68E3FF16A11988000F24C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D68E3D116A11987000F24C6 /* BTFloatingMenu */;
+			targetProxy = 3D68E3FE16A11988000F24C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D68E3DF16A11987000F24C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D68E3E016A11987000F24C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D68E3F116A11987000F24C6 /* BTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D68E3F216A11987000F24C6 /* en */,
+			);
+			name = BTViewController.xib;
+			sourceTree = "<group>";
+		};
+		3D68E40316A11988000F24C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D68E40416A11988000F24C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D68E40916A11988000F24C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3D68E40A16A11988000F24C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D68E40C16A11988000F24C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTFloatingMenu/BTFloatingMenu-Prefix.pch";
+				INFOPLIST_FILE = "BTFloatingMenu/BTFloatingMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D68E40D16A11988000F24C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTFloatingMenu/BTFloatingMenu-Prefix.pch";
+				INFOPLIST_FILE = "BTFloatingMenu/BTFloatingMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3D68E40F16A11988000F24C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTFloatingMenu.app/BTFloatingMenu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTFloatingMenu/BTFloatingMenu-Prefix.pch";
+				INFOPLIST_FILE = "BTFloatingMenuTests/BTFloatingMenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3D68E41016A11988000F24C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTFloatingMenu.app/BTFloatingMenu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTFloatingMenu/BTFloatingMenu-Prefix.pch";
+				INFOPLIST_FILE = "BTFloatingMenuTests/BTFloatingMenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D68E3CC16A11987000F24C6 /* Build configuration list for PBXProject "BTFloatingMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D68E40916A11988000F24C6 /* Debug */,
+				3D68E40A16A11988000F24C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D68E40B16A11988000F24C6 /* Build configuration list for PBXNativeTarget "BTFloatingMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D68E40C16A11988000F24C6 /* Debug */,
+				3D68E40D16A11988000F24C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D68E40E16A11988000F24C6 /* Build configuration list for PBXNativeTarget "BTFloatingMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D68E40F16A11988000F24C6 /* Debug */,
+				3D68E41016A11988000F24C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D68E3C916A11987000F24C6 /* Project object */;
+}
