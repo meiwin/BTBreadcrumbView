@@ -15,4 +15,5 @@ A breadcrumb ios control, features:
 
 ## Roadmap
 
-- Delegate protocol
+- UI appearance customization
+- Configure max allowed width to expand

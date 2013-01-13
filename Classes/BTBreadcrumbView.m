@@ -41,12 +41,18 @@ layer.shadowColor = kShadowColor
 @interface BTBreadcrumbView (Private)
 - (UIButton *)startButton;
 - (UIButton *)itemButton:(BTBreadcrumbItem *)item;
+- (void)didTapStartButton;
+- (void)didTapItemAtIndex:(NSUInteger)index;
+- (void)tapStartButton:(id)sender;
+- (void)tapItemButton:(id)sender;
 @end
 
 #define kStartButtonWidth 44
 #define kBreadcrumbHeight 44
 @implementation BTBreadcrumbView
 @synthesize items = _items;
+@synthesize delegate = _delegate;
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -93,6 +99,7 @@ layer.shadowColor = kShadowColor
   button.contentMode = UIViewContentModeLeft;
   [button setBackgroundImage:[UIImage imageNamed:@"button_start.png"] forState:UIControlStateNormal];
   button.frame = mRect(kStartButtonWidth+1, kBreadcrumbHeight);
+  [button addTarget:self action:@selector(tapStartButton:) forControlEvents:UIControlEventTouchUpInside];
   return button;
 }
 
@@ -112,8 +119,33 @@ layer.shadowColor = kShadowColor
   [button sizeToFit];
   CGSize s = button.bounds.size;
   button.frame = CGRectMake(0, 0, s.width + 32, kBreadcrumbHeight);
+  [button addTarget:self action:@selector(tapItemButton:) forControlEvents:UIControlEventTouchUpInside];
   
   return button;
+}
+
+- (void)didTapStartButton
+{
+  if (_delegate && [(id)_delegate respondsToSelector:@selector(breadcrumbViewDidTapStartButton:)])
+  {
+    [_delegate breadcrumbViewDidTapStartButton:self];
+  }
+}
+- (void)didTapItemAtIndex:(NSUInteger)index
+{
+  if (_delegate && [(id)_delegate respondsToSelector:@selector(breadcrumbView:didTapItemAtIndex:)])
+  {
+    [_delegate breadcrumbView:self didTapItemAtIndex:index];
+  }
+}
+
+- (void)tapStartButton:(id)sender
+{
+  [self didTapStartButton];
+}
+- (void)tapItemButton:(id)sender
+{
+  [self didTapItemAtIndex:[_itemViews indexOfObject:sender]];
 }
 
 #pragma mark Layout

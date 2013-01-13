@@ -29,6 +29,8 @@
 		3D68E42616A29576000F24C6 /* BTBreadcrumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68E42516A29576000F24C6 /* BTBreadcrumbView.m */; };
 		3D68E42916A2A417000F24C6 /* button_item.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D68E42716A2A417000F24C6 /* button_item.png */; };
 		3D68E42A16A2A417000F24C6 /* button_item@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D68E42816A2A417000F24C6 /* button_item@2x.png */; };
+		3D97B51F16A3099B00F2ACB1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3D97B51D16A3099B00F2ACB1 /* README.md */; };
+		3D97B52016A3099B00F2ACB1 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D97B51E16A3099B00F2ACB1 /* screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		3D68E42516A29576000F24C6 /* BTBreadcrumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBreadcrumbView.m; sourceTree = "<group>"; };
 		3D68E42716A2A417000F24C6 /* button_item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_item.png; sourceTree = "<group>"; };
 		3D68E42816A2A417000F24C6 /* button_item@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_item@2x.png"; sourceTree = "<group>"; };
+		3D97B51D16A3099B00F2ACB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		3D97B51E16A3099B00F2ACB1 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		3D68E3C716A11987000F24C6 = {
 			isa = PBXGroup;
 			children = (
+				3D97B51D16A3099B00F2ACB1 /* README.md */,
+				3D97B51E16A3099B00F2ACB1 /* screenshot.png */,
 				3D68E41716A164EF000F24C6 /* Resources */,
 				3D68E41116A11C9E000F24C6 /* Classes */,
 				3D68E3DC16A11987000F24C6 /* Demo */,
@@ -279,6 +285,8 @@
 				3D68E41B16A16508000F24C6 /* button_start@2x.png in Resources */,
 				3D68E42916A2A417000F24C6 /* button_item.png in Resources */,
 				3D68E42A16A2A417000F24C6 /* button_item@2x.png in Resources */,
+				3D97B51F16A3099B00F2ACB1 /* README.md in Resources */,
+				3D97B52016A3099B00F2ACB1 /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -32,6 +32,7 @@
   self.view.backgroundColor = mRGBA(148, 248, 200, 1);
   
   _breadcrumb = [[BTBreadcrumbView alloc] initWithFrame:CGRectMake(20, 75, 0, 0)];
+  _breadcrumb.delegate = self;
   [_breadcrumb sizeToFit];
   [self.view addSubview:_breadcrumb];
   
@@ -119,5 +120,14 @@
                  animated:YES];
   }
     
+}
+
+- (void)breadcrumbViewDidTapStartButton:(BTBreadcrumbView *)view
+{
+  NSLog(@"Start");
+}
+- (void)breadcrumbView:(BTBreadcrumbView *)view didTapItemAtIndex:(NSUInteger)index
+{
+  NSLog(@"Item at Index = %d", index);
 }
 @end
