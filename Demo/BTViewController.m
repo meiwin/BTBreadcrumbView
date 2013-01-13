@@ -40,7 +40,7 @@
   
   UIButton *button1 = [UIButton buttonWithType:UIButtonTypeRoundedRect];
   button1.tag = 1;
-  [button1 setTitle:@"stakeholders" forState:UIControlStateNormal];
+  [button1 setTitle:@"Level 1" forState:UIControlStateNormal];
   [self.view addSubview:button1];
   button1.frame = CGRectMake(cx, cy, 200, 30);
   cy += 40;
@@ -48,7 +48,7 @@
   
   UIButton *button2 = [UIButton buttonWithType:UIButtonTypeRoundedRect];
   button2.tag = 2;
-  [button2 setTitle:@"stakeholders > general" forState:UIControlStateNormal];
+  [button2 setTitle:@"Level 1 > Level 2" forState:UIControlStateNormal];
   [self.view addSubview:button2];
   button2.frame = CGRectMake(cx, cy, 200, 30);
   cy += 40;
@@ -56,7 +56,7 @@
 
   UIButton *button3 = [UIButton buttonWithType:UIButtonTypeRoundedRect];
   button3.tag = 3;
-  [button3 setTitle:@"stakeholders > political" forState:UIControlStateNormal];
+  [button3 setTitle:@"Level 1 > Level 2 > Level 3" forState:UIControlStateNormal];
   [self.view addSubview:button3];
   button3.frame = CGRectMake(cx, cy, 200, 30);
   cy += 40;
@@ -64,7 +64,7 @@
   
   UIButton *button4 = [UIButton buttonWithType:UIButtonTypeRoundedRect];
   button4.tag = 4;
-  [button4 setTitle:@"home > project overview" forState:UIControlStateNormal];
+  [button4 setTitle:@"Thank You" forState:UIControlStateNormal];
   [self.view addSubview:button4];
   button4.frame = CGRectMake(cx, cy, 200, 30);
   cy += 40;
@@ -72,7 +72,7 @@
 
   UIButton *button5 = [UIButton buttonWithType:UIButtonTypeRoundedRect];
   button5.tag = 5;
-  [button5 setTitle:@"home > project overview > qatar" forState:UIControlStateNormal];
+  [button5 setTitle:@"<none>" forState:UIControlStateNormal];
   [self.view addSubview:button5];
   button5.frame = CGRectMake(cx, cy, 200, 30);
   cy += 40;
@@ -100,26 +100,22 @@
   UIButton *button = (UIButton *)sender;
   if (button.tag == 1) { // stakeholders
     [_breadcrumb setItems:[NSArray arrayWithObjects:
-                           [self item:@"Stakeholders"], nil]
+                           [self item:@"Level 1"], nil]
                  animated:YES];
   } else if (button.tag == 2) { // stakeholders > general
     [_breadcrumb setItems:[NSArray arrayWithObjects:
-                           [self item:@"Stakeholders"], [self item:@"General"], nil]
+                           [self item:@"Level 1"], [self item:@"Level 2"], nil]
                  animated:YES];
   } else if (button.tag == 3) { // stakeholders > political
     [_breadcrumb setItems:[NSArray arrayWithObjects:
-                           [self item:@"Stakeholders"], [self item:@"Political"], nil]
+                           [self item:@"Level 1"], [self item:@"Level 2"], [self item:@"Level 3"], nil]
                  animated:YES];
   } else if (button.tag == 4) { // home > project overview
     [_breadcrumb setItems:[NSArray arrayWithObjects:
-                           [self item:@"Home"], [self item:@"Project Overview"], nil]
+                           [self item:@"Thank You"], nil]
                  animated:YES];
   } else {
-    [_breadcrumb setItems:[NSArray arrayWithObjects:
-                           [self item:@"Home"]
-                           , [self item:@"Project Overview"]
-                           , [self item:@"Qatar"]
-                           , nil]
+    [_breadcrumb setItems:[NSArray arrayWithObjects:nil]
                  animated:YES];
   }
     

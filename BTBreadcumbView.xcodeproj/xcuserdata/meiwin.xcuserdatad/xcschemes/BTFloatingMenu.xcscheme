@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D68E3D116A11987000F24C6"
-               BuildableName = "BTFloatingMenu.app"
+               BuildableName = "BTBreadcumbView.app"
                BlueprintName = "BTBreadcumbView"
                ReferencedContainer = "container:BTBreadcumbView.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D68E3F816A11987000F24C6"
-               BuildableName = "BTFloatingMenuTests.octest"
+               BuildableName = "BTBreadcumbViewTests.octest"
                BlueprintName = "BTBreadcumbViewTests"
                ReferencedContainer = "container:BTBreadcumbView.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D68E3D116A11987000F24C6"
-            BuildableName = "BTFloatingMenu.app"
+            BuildableName = "BTBreadcumbView.app"
             BlueprintName = "BTBreadcumbView"
             ReferencedContainer = "container:BTBreadcumbView.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D68E3D116A11987000F24C6"
-            BuildableName = "BTFloatingMenu.app"
+            BuildableName = "BTBreadcumbView.app"
             BlueprintName = "BTBreadcumbView"
             ReferencedContainer = "container:BTBreadcumbView.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D68E3D116A11987000F24C6"
-            BuildableName = "BTFloatingMenu.app"
+            BuildableName = "BTBreadcumbView.app"
             BlueprintName = "BTBreadcumbView"
             ReferencedContainer = "container:BTBreadcumbView.xcodeproj">
          </BuildableReference>
