@@ -1,5 +1,7 @@
 # BTBreadcrumbView
 
+![Screenshot](screenshot.png)
+
 A breadcrumb ios control, features:
 
 - Simple API
