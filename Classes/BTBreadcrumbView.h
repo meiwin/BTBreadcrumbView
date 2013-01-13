@@ -24,6 +24,8 @@
   UIButton *_startButton;
   NSArray * _items;
   NSMutableArray * _itemViews;
+  
+  BOOL _animating;
 }
 @property (nonatomic,strong) NSArray *items;
 - (void)setItems:(NSArray *)items;

@@ -133,6 +133,8 @@ layer.shadowColor = kShadowColor
 #pragma mark Public
 - (void)setItems:(NSArray *)items
 {
+  if (_animating) return;
+  
   // remove existings
   for (UIView *view in _itemViews) {
     [view removeFromSuperview];
@@ -185,6 +187,8 @@ layer.shadowColor = kShadowColor
 
 - (void)setItems:(NSArray *)items animated:(BOOL)animated
 {
+  if (_animating) return;
+  
   if (animated)
   {
     // retract existings
@@ -221,7 +225,9 @@ layer.shadowColor = kShadowColor
     }
     
     // retract first
-    [UIView animateWithDuration:0.3 animations:^{
+    [UIView animateWithDuration:0.2 animations:^{
+      
+      _animating = YES;
       
       [self sizeToFit];
       
@@ -272,9 +278,11 @@ layer.shadowColor = kShadowColor
       }
       
       // animate them
-      [UIView animateWithDuration:0.3 animations:^{
+      [UIView animateWithDuration:0.2 animations:^{
         [self sizeToFit];
         [self layoutSubviews];
+      } completion:^(BOOL finished) {
+        _animating = NO;
       }];
       
     }];
