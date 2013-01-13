@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BTBreadcrumbView.h"
 
 @interface BTViewController : UIViewController
-
+{
+  BTBreadcrumbView * _breadcrumb;
+}
 @end
