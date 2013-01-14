@@ -17,3 +17,4 @@ A breadcrumb ios control, features:
 
 - UI appearance customization
 - Configure max allowed width to expand
+- Auto retract when idle
